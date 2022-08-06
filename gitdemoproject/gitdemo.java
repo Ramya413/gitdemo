@@ -4,12 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-        public class  gitDemo {
-
-            public static void main(String[] args) throws Exception {
-                System.setProperty("webdriver.gecko.driver", "C:\\Users\\sales\\OneDrive\\Desktop\\Ramya\\geckoDriver\\geckodriver.exe");
-                WebDriver driver = new FirefoxDriver();
-                driver.manage().window().maximize();
+        public class  gitDemo {();
                 driver.get("http://demo.automationtesting.in/Frames.html");
                 Thread.sleep(5000);
                 driver.switchTo().frame(driver.findElement(By.id("singleframe")));
